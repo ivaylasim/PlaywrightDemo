@@ -1,1 +1,1 @@
-[]
+[{"values":["1.59.1"],"name":"Playwright.Version"},{"values":["Ubuntu 24.04 (noble) container"],"name":"OS"},{"values":["GitHub Actions CI"],"name":"Execution"},{"values":["Chromium, Firefox, WebKit"],"name":"Browsers"},{"values":["https://reqres.in"],"name":"Base.URL.API"},{"values":["https://www.shu.bg/students/razpisi-i-grafici/"],"name":"Base.URL.UI"}]
