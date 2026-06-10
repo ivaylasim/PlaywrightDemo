@@ -7,16 +7,16 @@ export class RazpisiGraficiPage {
   readonly url = 'https://www.shu.bg/students/razpisi-i-grafici/?speciality=158';
   
   // -- Декларации на локаторите — посочва кои елементи от страницата ще се ползват в тестовете
-  facultySelect: Locator;
-  degreeSelect: Locator;
-  formSelect: Locator;
-  submitButton: Locator;
-  pdfKvalifikaciya: Locator;
-  pdfKonspectDurzavenIzpit: Locator;
-  pdfGrafikDurzavenIzpit: Locator;
-  rarStudentskiKomplekt: Locator;
-  linkRazpisi: Locator;
-  linkStudents: Locator;
+  readonly facultySelect: Locator;
+  readonly degreeSelect: Locator;
+  readonly formSelect: Locator;
+  readonly submitButton: Locator;
+  readonly pdfKvalifikaciya: Locator;
+  readonly pdfKonspectDurzavenIzpit: Locator;
+  readonly pdfGrafikDurzavenIzpit: Locator;
+  readonly rarStudentskiKomplekt: Locator;
+  readonly linkRazpisi: Locator;
+  readonly linkStudents: Locator;
 
   // Дефиниране на Конструктор и инициализация на page и локаторите
   constructor(page: Page) {
